@@ -7,7 +7,6 @@ console.log(allDog);
 function App() {
   let randomApp = Math.floor(Math.random() * allDog.length);
 
-
   return (
     <div className="App">
       <DogInfo
